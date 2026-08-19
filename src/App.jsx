@@ -58,7 +58,7 @@ function Navigation() {
         </h2>
       </div>
       <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap' }}>
-        <Link to="/user" style={{
+        <Link to="/" style={{
           textDecoration: 'none',
           color: location.pathname === '/user' ? '#ffd700' : 'white',
           fontWeight: '600',
@@ -74,7 +74,7 @@ function Navigation() {
         }}>
           <span>🎊</span> Guest Check-in
         </Link>
-        {/* <Link to="/" style={{
+        <Link to="/admin" style={{
           textDecoration: 'none',
           color: location.pathname === '/' ? '#ffd700' : 'white',
           fontWeight: '600',
@@ -89,7 +89,7 @@ function Navigation() {
           gap: '8px'
         }}>
           <span>👑</span> Admin Panel
-        </Link> */}
+        </Link>
       </div>
     </nav>
   );
